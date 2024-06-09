@@ -1,0 +1,699 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.ComputerInfo</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Microsoft.PowerShell.Commands.ComputerInfo</ToString>
+    <Props>
+      <S N="WindowsBuildLabEx">19041.1.amd64fre.vb_release.191206-1406</S>
+      <S N="WindowsCurrentVersion">6.3</S>
+      <S N="WindowsEditionId">Professional</S>
+      <S N="WindowsInstallationType">Client</S>
+      <DT N="WindowsInstallDateFromRegistry">2022-11-23T23:42:58</DT>
+      <S N="WindowsProductId">00330-51590-75419-AAOEM</S>
+      <S N="WindowsProductName">Windows 10 Pro</S>
+      <S N="WindowsRegisteredOrganization"></S>
+      <S N="WindowsRegisteredOwner">Windows User</S>
+      <S N="WindowsSystemRoot">C:\Windows</S>
+      <S N="WindowsVersion">2009</S>
+      <I32 N="WindowsUBR">2846</I32>
+      <Obj N="BiosCharacteristics" RefId="1">
+        <TN RefId="1">
+          <T>System.UInt16[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <U16>7</U16>
+          <U16>11</U16>
+          <U16>12</U16>
+          <U16>15</U16>
+          <U16>16</U16>
+          <U16>17</U16>
+          <U16>19</U16>
+          <U16>23</U16>
+          <U16>24</U16>
+          <U16>25</U16>
+          <U16>26</U16>
+          <U16>27</U16>
+          <U16>28</U16>
+          <U16>29</U16>
+          <U16>32</U16>
+          <U16>33</U16>
+          <U16>40</U16>
+          <U16>42</U16>
+          <U16>43</U16>
+        </LST>
+      </Obj>
+      <Obj N="BiosBIOSVersion" RefId="2">
+        <TN RefId="2">
+          <T>System.String[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>ALASKA - 1072009</S>
+          <S>BIOS Date: 11/15/18 16:38:52 Ver: 05.0000D</S>
+        </LST>
+      </Obj>
+      <Nil N="BiosBuildNumber" />
+      <S N="BiosCaption">BIOS Date: 11/15/18 16:38:52 Ver: 05.0000D</S>
+      <Nil N="BiosCodeSet" />
+      <Nil N="BiosCurrentLanguage" />
+      <S N="BiosDescription">BIOS Date: 11/15/18 16:38:52 Ver: 05.0000D</S>
+      <I16 N="BiosEmbeddedControllerMajorVersion">255</I16>
+      <I16 N="BiosEmbeddedControllerMinorVersion">255</I16>
+      <Obj N="BiosFirmwareType" RefId="3">
+        <TN RefId="3">
+          <T>Microsoft.PowerShell.Commands.FirmwareType</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Bios</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Nil N="BiosIdentificationCode" />
+      <Nil N="BiosInstallableLanguages" />
+      <Nil N="BiosInstallDate" />
+      <Nil N="BiosLanguageEdition" />
+      <Nil N="BiosListOfLanguages" />
+      <S N="BiosManufacturer">American Megatrends Inc.</S>
+      <S N="BiosName">BIOS Date: 11/15/18 16:38:52 Ver: 05.0000D</S>
+      <Nil N="BiosOtherTargetOS" />
+      <B N="BiosPrimaryBIOS">true</B>
+      <DT N="BiosReleaseDate">2018-11-14T16:00:00-08:00</DT>
+      <S N="BiosSerialNumber">B174758</S>
+      <S N="BiosSMBIOSBIOSVersion">P1.60A</S>
+      <U16 N="BiosSMBIOSMajorVersion">2</U16>
+      <U16 N="BiosSMBIOSMinorVersion">8</U16>
+      <B N="BiosSMBIOSPresent">true</B>
+      <Obj N="BiosSoftwareElementState" RefId="4">
+        <TN RefId="4">
+          <T>Microsoft.PowerShell.Commands.SoftwareElementState</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Running</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="BiosStatus">OK</S>
+      <U16 N="BiosSystemBiosMajorVersion">5</U16>
+      <U16 N="BiosSystemBiosMinorVersion">13</U16>
+      <U16 N="BiosTargetOperatingSystem">0</U16>
+      <S N="BiosVersion">ALASKA - 1072009</S>
+      <Obj N="CsAdminPasswordStatus" RefId="5">
+        <TN RefId="5">
+          <T>Microsoft.PowerShell.Commands.HardwareSecurity</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Unknown</ToString>
+        <I32>3</I32>
+      </Obj>
+      <B N="CsAutomaticManagedPagefile">true</B>
+      <B N="CsAutomaticResetBootOption">true</B>
+      <B N="CsAutomaticResetCapability">true</B>
+      <Nil N="CsBootOptionOnLimit" />
+      <Nil N="CsBootOptionOnWatchDog" />
+      <B N="CsBootROMSupported">true</B>
+      <Obj N="CsBootStatus" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+          <U16>0</U16>
+        </LST>
+      </Obj>
+      <S N="CsBootupState">Normal boot</S>
+      <S N="CsCaption">HYBRID-FUTR-2</S>
+      <Obj N="CsChassisBootupState" RefId="7">
+        <TN RefId="6">
+          <T>Microsoft.PowerShell.Commands.SystemElementState</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Safe</ToString>
+        <I32>3</I32>
+      </Obj>
+      <S N="CsChassisSKUNumber">To Be Filled By O.E.M.</S>
+      <I16 N="CsCurrentTimeZone">-420</I16>
+      <B N="CsDaylightInEffect">true</B>
+      <S N="CsDescription">AT/AT COMPATIBLE</S>
+      <S N="CsDNSHostName">HYBRID-FUTR-2</S>
+      <S N="CsDomain">WORKGROUP</S>
+      <Obj N="CsDomainRole" RefId="8">
+        <TN RefId="7">
+          <T>Microsoft.PowerShell.Commands.DomainRole</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>StandaloneWorkstation</ToString>
+        <I32>0</I32>
+      </Obj>
+      <B N="CsEnableDaylightSavingsTime">true</B>
+      <Obj N="CsFrontPanelResetStatus" RefId="9">
+        <TNRef RefId="5" />
+        <ToString>Unknown</ToString>
+        <I32>3</I32>
+      </Obj>
+      <B N="CsHypervisorPresent">false</B>
+      <B N="CsInfraredSupported">false</B>
+      <Nil N="CsInitialLoadInfo" />
+      <Nil N="CsInstallDate" />
+      <Obj N="CsKeyboardPasswordStatus" RefId="10">
+        <TNRef RefId="5" />
+        <ToString>Unknown</ToString>
+        <I32>3</I32>
+      </Obj>
+      <Nil N="CsLastLoadInfo" />
+      <S N="CsManufacturer">BOXX Technologies</S>
+      <S N="CsModel">APEXX S3.03</S>
+      <S N="CsName">HYBRID-FUTR-2</S>
+      <Obj N="CsNetworkAdapters" RefId="11">
+        <TN RefId="8">
+          <T>Microsoft.PowerShell.Commands.NetworkAdapter[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <Obj RefId="12">
+            <TN RefId="9">
+              <T>Microsoft.PowerShell.Commands.NetworkAdapter</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>Microsoft.PowerShell.Commands.NetworkAdapter</ToString>
+            <Props>
+              <S N="Description">Intel(R) I211 Gigabit Network Connection</S>
+              <S N="ConnectionID">Ethernet</S>
+              <B N="DHCPEnabled">true</B>
+              <S N="DHCPServer">10.3.64.1</S>
+              <S N="ConnectionStatus">Connected</S>
+              <Obj N="IPAddresses" RefId="13">
+                <TNRef RefId="2" />
+                <LST>
+                  <S>10.3.65.97</S>
+                  <S>fe80::2eca:c61a:c92e:e1c5</S>
+                </LST>
+              </Obj>
+            </Props>
+          </Obj>
+          <Obj RefId="14">
+            <TNRef RefId="9" />
+            <ToString>Microsoft.PowerShell.Commands.NetworkAdapter</ToString>
+            <Props>
+              <S N="Description">Intel(R) Ethernet Connection (7) I219-V</S>
+              <S N="ConnectionID">Ethernet 2</S>
+              <Nil N="DHCPEnabled" />
+              <Nil N="DHCPServer" />
+              <S N="ConnectionStatus">MediaDisconnected</S>
+              <Nil N="IPAddresses" />
+            </Props>
+          </Obj>
+          <Obj RefId="15">
+            <TNRef RefId="9" />
+            <ToString>Microsoft.PowerShell.Commands.NetworkAdapter</ToString>
+            <Props>
+              <S N="Description">Intel(R) Dual Band Wireless-AC 3168</S>
+              <S N="ConnectionID">Wi-Fi</S>
+              <Nil N="DHCPEnabled" />
+              <Nil N="DHCPServer" />
+              <S N="ConnectionStatus">MediaDisconnected</S>
+              <Nil N="IPAddresses" />
+            </Props>
+          </Obj>
+        </LST>
+      </Obj>
+      <B N="CsNetworkServerModeEnabled">true</B>
+      <U32 N="CsNumberOfLogicalProcessors">8</U32>
+      <U32 N="CsNumberOfProcessors">1</U32>
+      <Obj N="CsProcessors" RefId="16">
+        <TN RefId="10">
+          <T>Microsoft.PowerShell.Commands.Processor[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <Obj RefId="17">
+            <TN RefId="11">
+              <T>Microsoft.PowerShell.Commands.Processor</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>Microsoft.PowerShell.Commands.Processor</ToString>
+            <Props>
+              <S N="Name">Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz</S>
+              <S N="Manufacturer">GenuineIntel</S>
+              <S N="Description">Intel64 Family 6 Model 158 Stepping 12</S>
+              <S N="Architecture">x64</S>
+              <U16 N="AddressWidth">64</U16>
+              <U16 N="DataWidth">64</U16>
+              <U32 N="MaxClockSpeed">3601</U32>
+              <U32 N="CurrentClockSpeed">1500</U32>
+              <U32 N="NumberOfCores">8</U32>
+              <U32 N="NumberOfLogicalProcessors">8</U32>
+              <S N="ProcessorID">BFEBFBFF000906EC</S>
+              <S N="SocketDesignation">CPUSocket</S>
+              <S N="ProcessorType">CentralProcessor</S>
+              <S N="Role">CPU</S>
+              <S N="Status">OK</S>
+              <S N="CpuStatus">Enabled</S>
+              <S N="Availability">RunningOrFullPower</S>
+            </Props>
+          </Obj>
+        </LST>
+      </Obj>
+      <Obj N="CsOEMStringArray" RefId="18">
+        <TNRef RefId="2" />
+        <LST>
+          <S>To Be Filled By O.E.M.</S>
+        </LST>
+      </Obj>
+      <B N="CsPartOfDomain">false</B>
+      <I64 N="CsPauseAfterReset">-1</I64>
+      <Obj N="CsPCSystemType" RefId="19">
+        <TN RefId="12">
+          <T>Microsoft.PowerShell.Commands.PCSystemType</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Desktop</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Obj N="CsPCSystemTypeEx" RefId="20">
+        <TN RefId="13">
+          <T>Microsoft.PowerShell.Commands.PCSystemTypeEx</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Desktop</ToString>
+        <I32>1</I32>
+      </Obj>
+      <Nil N="CsPowerManagementCapabilities" />
+      <Nil N="CsPowerManagementSupported" />
+      <Obj N="CsPowerOnPasswordStatus" RefId="21">
+        <TNRef RefId="5" />
+        <ToString>Unknown</ToString>
+        <I32>3</I32>
+      </Obj>
+      <Obj N="CsPowerState" RefId="22">
+        <TN RefId="14">
+          <T>Microsoft.PowerShell.Commands.PowerState</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Unknown</ToString>
+        <I32>0</I32>
+      </Obj>
+      <Obj N="CsPowerSupplyState" RefId="23">
+        <TNRef RefId="6" />
+        <ToString>Safe</ToString>
+        <I32>3</I32>
+      </Obj>
+      <Nil N="CsPrimaryOwnerContact" />
+      <S N="CsPrimaryOwnerName">Windows User</S>
+      <Obj N="CsResetCapability" RefId="24">
+        <TN RefId="15">
+          <T>Microsoft.PowerShell.Commands.ResetCapability</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Other</ToString>
+        <I32>1</I32>
+      </Obj>
+      <I16 N="CsResetCount">-1</I16>
+      <I16 N="CsResetLimit">-1</I16>
+      <Obj N="CsRoles" RefId="25">
+        <TNRef RefId="2" />
+        <LST>
+          <S>LM_Workstation</S>
+          <S>LM_Server</S>
+          <S>NT</S>
+        </LST>
+      </Obj>
+      <S N="CsStatus">OK</S>
+      <Nil N="CsSupportContactDescription" />
+      <S N="CsSystemFamily">To Be Filled By O.E.M.</S>
+      <S N="CsSystemSKUNumber">To Be Filled By O.E.M.</S>
+      <S N="CsSystemType">x64-based PC</S>
+      <Obj N="CsThermalState" RefId="26">
+        <TNRef RefId="6" />
+        <ToString>Safe</ToString>
+        <I32>3</I32>
+      </Obj>
+      <U64 N="CsTotalPhysicalMemory">68633534464</U64>
+      <U64 N="CsPhysicallyInstalledMemory">67108864</U64>
+      <S N="CsUserName">HYBRID-FUTR-2\hybri</S>
+      <Obj N="CsWakeUpType" RefId="27">
+        <TN RefId="16">
+          <T>Microsoft.PowerShell.Commands.WakeUpType</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>PowerSwitch</ToString>
+        <I32>6</I32>
+      </Obj>
+      <S N="CsWorkgroup">WORKGROUP</S>
+      <S N="OsName">Microsoft Windows 10 Pro</S>
+      <Obj N="OsType" RefId="28">
+        <TN RefId="17">
+          <T>Microsoft.PowerShell.Commands.OSType</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>WINNT</ToString>
+        <I32>18</I32>
+      </Obj>
+      <Obj N="OsOperatingSystemSKU" RefId="29">
+        <TN RefId="18">
+          <T>Microsoft.PowerShell.Commands.OperatingSystemSKU</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>48</ToString>
+        <I32>48</I32>
+      </Obj>
+      <S N="OsVersion">10.0.19045</S>
+      <Nil N="OsCSDVersion" />
+      <S N="OsBuildNumber">19045</S>
+      <Obj N="OsHotFixes" RefId="30">
+        <TN RefId="19">
+          <T>Microsoft.PowerShell.Commands.HotFix[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <Obj RefId="31">
+            <TN RefId="20">
+              <T>Microsoft.PowerShell.Commands.HotFix</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5022502</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">2/15/2023</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="32">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5003791</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">10/6/2021</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="33">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5012170</S>
+              <S N="Description">Security Update</S>
+              <S N="InstalledOn">12/7/2022</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="34">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5015684</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">12/22/2022</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="35">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5020683</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">12/4/2022</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="36">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5025221</S>
+              <S N="Description">Security Update</S>
+              <S N="InstalledOn">4/17/2023</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="37">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5016705</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">11/1/2022</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="38">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5018506</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">12/4/2022</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="39">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5020372</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">12/15/2022</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="40">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5022924</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">3/8/2023</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="41">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5023794</S>
+              <S N="Description">Update</S>
+              <S N="InstalledOn">4/9/2023</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="42">
+            <TNRef RefId="20" />
+            <ToString>Microsoft.PowerShell.Commands.HotFix</ToString>
+            <Props>
+              <S N="HotFixID">KB5005699</S>
+              <S N="Description">Security Update</S>
+              <S N="InstalledOn">10/6/2021</S>
+              <S N="FixComments"></S>
+            </Props>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="OsBootDevice">\Device\HarddiskVolume1</S>
+      <S N="OsSystemDevice">\Device\HarddiskVolume2</S>
+      <S N="OsSystemDirectory">C:\Windows\system32</S>
+      <S N="OsSystemDrive">C:</S>
+      <S N="OsWindowsDirectory">C:\Windows</S>
+      <S N="OsCountryCode">1</S>
+      <I16 N="OsCurrentTimeZone">-420</I16>
+      <S N="OsLocaleID">0409</S>
+      <S N="OsLocale">en-US</S>
+      <DT N="OsLocalDateTime">2023-04-25T16:54:24.716-07:00</DT>
+      <DT N="OsLastBootUpTime">2023-04-19T14:21:48.708226-07:00</DT>
+      <TS N="OsUptime">P6DT2H32M35.9531665S</TS>
+      <S N="OsBuildType">Multiprocessor Free</S>
+      <S N="OsCodeSet">1252</S>
+      <B N="OsDataExecutionPreventionAvailable">true</B>
+      <B N="OsDataExecutionPrevention32BitApplications">true</B>
+      <B N="OsDataExecutionPreventionDrivers">true</B>
+      <Obj N="OsDataExecutionPreventionSupportPolicy" RefId="43">
+        <TN RefId="21">
+          <T>Microsoft.PowerShell.Commands.DataExecutionPreventionSupportPolicy</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>OptIn</ToString>
+        <I32>2</I32>
+      </Obj>
+      <B N="OsDebug">false</B>
+      <B N="OsDistributed">false</B>
+      <Obj N="OsEncryptionLevel" RefId="44">
+        <TN RefId="22">
+          <T>Microsoft.PowerShell.Commands.OSEncryptionLevel</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>256</ToString>
+        <I32>256</I32>
+      </Obj>
+      <Obj N="OsForegroundApplicationBoost" RefId="45">
+        <TN RefId="23">
+          <T>Microsoft.PowerShell.Commands.ForegroundApplicationBoost</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Maximum</ToString>
+        <I32>2</I32>
+      </Obj>
+      <U64 N="OsTotalVisibleMemorySize">67024936</U64>
+      <U64 N="OsFreePhysicalMemory">54284216</U64>
+      <U64 N="OsTotalVirtualMemorySize">76986408</U64>
+      <U64 N="OsFreeVirtualMemory">62039740</U64>
+      <U64 N="OsInUseVirtualMemory">14946668</U64>
+      <Nil N="OsTotalSwapSpaceSize" />
+      <U64 N="OsSizeStoredInPagingFiles">9961472</U64>
+      <U64 N="OsFreeSpaceInPagingFiles">9961472</U64>
+      <Obj N="OsPagingFiles" RefId="46">
+        <TNRef RefId="2" />
+        <LST>
+          <S>C:\pagefile.sys</S>
+        </LST>
+      </Obj>
+      <S N="OsHardwareAbstractionLayer">10.0.19041.2728</S>
+      <DT N="OsInstallDate">2022-11-23T15:42:58-08:00</DT>
+      <S N="OsManufacturer">Microsoft Corporation</S>
+      <U32 N="OsMaxNumberOfProcesses">4294967295</U32>
+      <U64 N="OsMaxProcessMemorySize">137438953344</U64>
+      <Obj N="OsMuiLanguages" RefId="47">
+        <TNRef RefId="2" />
+        <LST>
+          <S>en-US</S>
+        </LST>
+      </Obj>
+      <Nil N="OsNumberOfLicensedUsers" />
+      <U32 N="OsNumberOfProcesses">251</U32>
+      <U32 N="OsNumberOfUsers">2</U32>
+      <S N="OsOrganization"></S>
+      <S N="OsArchitecture">64-bit</S>
+      <S N="OsLanguage">en-US</S>
+      <Obj N="OsProductSuites" RefId="48">
+        <TN RefId="24">
+          <T>Microsoft.PowerShell.Commands.OSProductSuite[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <Obj RefId="49">
+            <TN RefId="25">
+              <T>Microsoft.PowerShell.Commands.OSProductSuite</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>TerminalServicesSingleSession</ToString>
+            <I32>256</I32>
+          </Obj>
+        </LST>
+      </Obj>
+      <Nil N="OsOtherTypeDescription" />
+      <Nil N="OsPAEEnabled" />
+      <B N="OsPortableOperatingSystem">false</B>
+      <B N="OsPrimary">true</B>
+      <Obj N="OsProductType" RefId="50">
+        <TN RefId="26">
+          <T>Microsoft.PowerShell.Commands.ProductType</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>WorkStation</ToString>
+        <I32>1</I32>
+      </Obj>
+      <S N="OsRegisteredUser">Windows User</S>
+      <S N="OsSerialNumber">00330-51590-75419-AAOEM</S>
+      <U16 N="OsServicePackMajorVersion">0</U16>
+      <U16 N="OsServicePackMinorVersion">0</U16>
+      <S N="OsStatus">OK</S>
+      <Obj N="OsSuites" RefId="51">
+        <TNRef RefId="24" />
+        <LST>
+          <Obj RefId="52">
+            <TNRef RefId="25" />
+            <ToString>TerminalServices</ToString>
+            <I32>16</I32>
+          </Obj>
+          <Obj RefId="53">
+            <TNRef RefId="25" />
+            <ToString>TerminalServicesSingleSession</ToString>
+            <I32>256</I32>
+          </Obj>
+        </LST>
+      </Obj>
+      <Nil N="OsServerLevel" />
+      <S N="KeyboardLayout">en-US</S>
+      <S N="TimeZone">(UTC-08:00) Pacific Time (US &amp; Canada)</S>
+      <S N="LogonServer">\\HYBRID-FUTR-2</S>
+      <Obj N="PowerPlatformRole" RefId="54">
+        <TN RefId="27">
+          <T>Microsoft.PowerShell.Commands.PowerPlatformRole</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Desktop</ToString>
+        <I32>1</I32>
+      </Obj>
+      <B N="HyperVisorPresent">false</B>
+      <B N="HyperVRequirementDataExecutionPreventionAvailable">true</B>
+      <B N="HyperVRequirementSecondLevelAddressTranslation">true</B>
+      <B N="HyperVRequirementVirtualizationFirmwareEnabled">true</B>
+      <B N="HyperVRequirementVMMonitorModeExtensions">true</B>
+      <Obj N="DeviceGuardSmartStatus" RefId="55">
+        <TN RefId="28">
+          <T>Microsoft.PowerShell.Commands.DeviceGuardSmartStatus</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Off</ToString>
+        <I32>0</I32>
+      </Obj>
+      <Nil N="DeviceGuardRequiredSecurityProperties" />
+      <Nil N="DeviceGuardAvailableSecurityProperties" />
+      <Nil N="DeviceGuardSecurityServicesConfigured" />
+      <Nil N="DeviceGuardSecurityServicesRunning" />
+      <Nil N="DeviceGuardCodeIntegrityPolicyEnforcementStatus" />
+      <Nil N="DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus" />
+    </Props>
+  </Obj>
+</Objs>

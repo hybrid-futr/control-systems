@@ -1,0 +1,18 @@
+1 Create a new directory called Labs.
+    New-Item Labs -ItemType Directory
+
+2 Create a zero-length file named /Labs/Test.txt (use New-Item). 
+    New-Item Test.txt
+
+3 Is it possible to use Set-Item to change the contents of /Labs/Test.txt to
+-TESTING? Or do you get an error? If you get an error, why?
+    No. You need to use 'Set-Content -Path .\Test.txt -Value '-TESTING''
+
+4 Using the Environment provider, display the value of the system environment
+variable PATH.
+    Get-Item -Path Env:
+    NOTE: Get-Help about_Environment_Provider
+
+5 Use help to determine what the differences are between the -Filter, -Include,
+and -Exclude parameters of Get-ChildItem.
+    Get-Help Get-ChildItem -Online

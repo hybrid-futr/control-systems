@@ -1,0 +1,61 @@
+# PC PWSH SHORTCUTS from Month of Lunches 
+** page numbers correspond to pdf doc numbers **
+
+> PG. 57
+run: 'gcm *get*' to see all of the commands that contain get in their name 
+
+> PG. 57
+'Get-Command -Noun *event*' returns a list of cmdlets dealing with events; 
+
+'Get-Command -Verb Get' returns all cmdlets capable of retrieving things. You can also use the -CommandType parameter, specifying a type of cmdlet: 
+
+'Get-Command *event* -Type' cmdlet shows a list of all cmdlets that include event in their names, and the list won’t include any external applications or commands.
+
+> PG. 61
+SAVE: Both full path cmdlet's and abbreviated cmdlet's in a text (.txt) file 
+
+> PG. 66
+CMDLETS - ConvertTo-Html
+
+> Pg. 70 
+EXECUTION POLICY
+LOCAL GROUP POLICY EDITOR: Windows Key + Edit Group Policy
+
+> PG. 76
+Aliases -
+    Get-Alias -Definition "Get-Process"
+    Get-Alias -Definition "Get-Command"
+
+> PG. 86
+    help about_Environment_Provider -online
+
+> PG. 99
+    help Select-Object -online
+
+> PG.101
+    Export xml:
+    Get-process | Export-Clixml procs.xml
+    Import-clixml .\procs.xml
+
+> PG. 102
+    COMPARE: 
+    > Get-process | Export-Clixml procs.xml
+    > pwsh
+    > Compare-Object -ReferenceObject (Import-Clixml ./procs.xml) -DifferenceObject (Get-Process) -Property name
+
+> PG. 108
+    Export-CSV -vs- Export-Clixml
+
+> PG.119
+    Compression
+
+> PG. 121
+    Objects 
+    >  Get-Process
+
+> Pg. 122
+    Object > table row
+    Property > table column
+    Method > action
+    Collection > table
+    

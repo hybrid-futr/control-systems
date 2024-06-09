@@ -1,0 +1,30 @@
+1 Browse the PowerShell Gallery. Find a module or two that you think sounds interesting and install it.
+    - Install-Module
+
+2 Browse the available commands for the module you just downloaded.
+    - https://www.powershellgallery.com/packages/PythonPowershellUtilities/2.0.1 > Package Details
+
+3 Use the commands from section 7.2 to find and install (if needed) the latest version module by Microsoft for working with archives that contain the command Compress-Archive. 
+    - USE: help Register-PSRepository -online
+     Find-Module *archive*
+     Install-Module Microsoft.PowerShell.Archive
+     Update-Module Microsoft.PowerShell.Archive 
+         > Update-Module: Module 'Microsoft.PowerShell.Archive' was not installed by using Install-Module, so it cannot be updated.
+
+4 Import the module you just installed.
+    - Import-module Microsoft.Powershell.Archive
+
+5 Create a Tests folder for the next step with 10 files in it, and name it ~/Test Folder.
+    - mkdir C:\Users\hybri\OneDrive\HFdesktop\ONE\pwshPC\CH7\'Test Folder'
+     cd 'Test Folder'
+     '1' | Out-File 1.txt    
+
+6 Use Compress-Archive to create a zip of the contents of ~/TestFolder, and
+name the archive TestFolder.zip.
+    -  Compress-Archive -Path .\'Test Folder' -DestinationPath .\TestFolder.zip
+
+7 Expand the archive to ~/TestFolder2.
+    - Expand-Archive -Path .\TestFolder.zip -DestinationPath .\TestFolder2
+
+8 Use Compare-Object and Select-Object -ExpandProperty Name to compare just the names of the files in the folders to verify you have the same files.
+    - Compare-Object -ReferenceObject (Get-ChildItem .\'Test Folder' | Select-Object -ExpandProperty Name) -DifferenceObject (Get-ChildItem .\'TestFolder2' | Select-Object -ExpandProperty Name)

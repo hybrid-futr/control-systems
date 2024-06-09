@@ -1,0 +1,15 @@
+#POWERSHELL_SHAREPOINT
+
+Get-Module -Name Microsoft.Online.SharePoint.PowerShell -ListAvailable | Select Name,Version
+
+
+#LINKS: 
+# - https://learn.microsoft.com/en-us/sharepoint/change-your-sharepoint-domain-name
+
+# - https://learn.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online
+
+Connect-SPOService -Url https://AgileBusinessGroupLLC-admin.sharepoint.com
+
+Connect-SPOService -Url https://hybridfutr.sharepoint.com -Credential jfr@hybridfutr.com
+
+Start-SPOTenantRename -DomainName "hybridfutrglobal" -ScheduledDateTime "2023-06-25T00:00:00"
