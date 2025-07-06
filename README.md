@@ -4,7 +4,7 @@ Control Systems Research
 
 Pt. 1 (JUNE)
 
-PID Controller Simlink models
+PID Controller Simulink models
 
 Simulink Model #1: 
 PID with DC Motor
@@ -14,4 +14,4 @@ Temperature control of a room using a PID controller
 
 Pt. 2 (JULY)
 
-Network observability research with a focus on integrating distortion decoupling 
+Network observability research with a focus on developing distortion decoupling methods 
